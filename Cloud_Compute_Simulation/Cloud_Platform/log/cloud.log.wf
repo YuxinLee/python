@@ -1,0 +1,150 @@
+2017-12-24 13:11:30 ERROR [transport.py:1687] Exception: Error reading SSH protocol banner
+2017-12-24 13:11:30 ERROR [transport.py:1685] Traceback (most recent call last):
+2017-12-24 13:11:30 ERROR [transport.py:1685]   File "C:\Python27\lib\site-packages\paramiko\transport.py", line 1856, in run
+2017-12-24 13:11:30 ERROR [transport.py:1685]     self._check_banner()
+2017-12-24 13:11:30 ERROR [transport.py:1685]   File "C:\Python27\lib\site-packages\paramiko\transport.py", line 2008, in _check_banner
+2017-12-24 13:11:30 ERROR [transport.py:1685]     'Error reading SSH protocol banner' + str(e)
+2017-12-24 13:11:30 ERROR [transport.py:1685] SSHException: Error reading SSH protocol banner
+2017-12-24 13:11:30 ERROR [transport.py:1685] 
+2017-12-24 13:17:58 ERROR [logutil.py:27] ERROR (CommandError): No flavor with a name or ID of 'm1.tiny,' exists.
+
+2017-12-24 13:19:23 ERROR [logutil.py:27] ERROR (BadRequest): Network 6aace909-40d4-42d7-9d04-5172c9b05e64 could not be found. (HTTP 400) (Request-ID: req-ad422cf4-fcb6-4fe0-ae5b-4681fb3ba2f6)
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | Property                             | Value                                                      |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | OS-EXT-SRV-ATTR:instance_name        | instance-00000005                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | accessIPv4                           |                                                            |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | accessIPv6                           |                                                            |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | adminPass                            | 56VhdyzZBuRJ                                               |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | config_drive                         |                                                            |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | created                              | 2017-12-24T05:20:36Z                                       |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | hostId                               |                                                            |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | id                                   | 6fe0eb7a-fd38-4f70-aecd-7c0234970725                       |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | key_name                             | -                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | metadata                             | {}                                                         |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | name                                 | mytest                                                     |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | progress                             | 0                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | security_groups                      | default                                                    |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | status                               | BUILD                                                      |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | updated                              | 2017-12-24T05:20:36Z                                       |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-24 13:20:37 ERROR [logutil.py:27] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | Property                             | Value                                                      |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | OS-EXT-SRV-ATTR:instance_name        | instance-00000006                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | accessIPv4                           |                                                            |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | accessIPv6                           |                                                            |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | adminPass                            | L5L5xeFZQ38B                                               |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | config_drive                         |                                                            |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | created                              | 2017-12-24T05:25:20Z                                       |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | hostId                               |                                                            |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | id                                   | eb0c0988-36bf-49d9-8eef-fdecb41872f4                       |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | key_name                             | -                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | metadata                             | {}                                                         |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | name                                 | mytest                                                     |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | progress                             | 0                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | security_groups                      | default                                                    |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | status                               | BUILD                                                      |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | updated                              | 2017-12-24T05:25:20Z                                       |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-24 13:25:21 ERROR [logutil.py:27] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:16:54 ERROR [logutil.py:27] bash: -c: 行 0: 未预期的符号 `(' 附近有语法错误
+
+2017-12-24 14:16:54 ERROR [logutil.py:27] bash: -c: 行 0: `source admin-openrc.sh && nova boot --flavor m1.tiny --image cirros-0.3.3-x86_64 --nic net-id=('72c563de-d9ee-48f9-82bb-2ce1360c94a7',) --security-group default --availability-zone zone_test1:compute2 apitest0'
+
+2017-12-24 15:02:40 ERROR [logutil.py:27] vm deploy fail!
+2017-12-24 15:07:27 ERROR [logutil.py:27] vm deploy fail!

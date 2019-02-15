@@ -1,3 +1,0 @@
-
-def helloe():
-    print("hello")

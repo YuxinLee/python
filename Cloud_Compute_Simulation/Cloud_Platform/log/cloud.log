@@ -1,0 +1,1010 @@
+2017-12-24 13:11:15 INFO [logutil.py:19] ...
+2017-12-24 13:11:30 ERROR [transport.py:1687] Exception: Error reading SSH protocol banner
+2017-12-24 13:11:30 ERROR [transport.py:1685] Traceback (most recent call last):
+2017-12-24 13:11:30 ERROR [transport.py:1685]   File "C:\Python27\lib\site-packages\paramiko\transport.py", line 1856, in run
+2017-12-24 13:11:30 ERROR [transport.py:1685]     self._check_banner()
+2017-12-24 13:11:30 ERROR [transport.py:1685]   File "C:\Python27\lib\site-packages\paramiko\transport.py", line 2008, in _check_banner
+2017-12-24 13:11:30 ERROR [transport.py:1685]     'Error reading SSH protocol banner' + str(e)
+2017-12-24 13:11:30 ERROR [transport.py:1685] SSHException: Error reading SSH protocol banner
+2017-12-24 13:11:30 ERROR [transport.py:1685] 
+2017-12-24 13:12:34 INFO [logutil.py:19] ...
+2017-12-24 13:12:34 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 13:12:34 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 13:12:34 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 13:17:21 INFO [logutil.py:19] ...
+2017-12-24 13:17:21 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 13:17:21 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 13:17:21 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 13:17:57 INFO [logutil.py:19] ...
+2017-12-24 13:17:58 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 13:17:58 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 13:17:58 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 13:17:58 ERROR [logutil.py:26] ERROR (CommandError): No flavor with a name or ID of 'm1.tiny,' exists.
+
+2017-12-24 13:19:22 INFO [logutil.py:19] ...
+2017-12-24 13:19:22 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 13:19:22 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 13:19:22 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 13:19:23 ERROR [logutil.py:26] ERROR (BadRequest): Network 6aace909-40d4-42d7-9d04-5172c9b05e64 could not be found. (HTTP 400) (Request-ID: req-ad422cf4-fcb6-4fe0-ae5b-4681fb3ba2f6)
+
+2017-12-24 13:20:36 INFO [logutil.py:19] ...
+2017-12-24 13:20:36 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 13:20:36 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 13:20:36 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 13:20:37 ERROR [logutil.py:26] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | Property                             | Value                                                      |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | OS-EXT-SRV-ATTR:instance_name        | instance-00000005                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | accessIPv4                           |                                                            |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | accessIPv6                           |                                                            |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | adminPass                            | 56VhdyzZBuRJ                                               |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | config_drive                         |                                                            |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | created                              | 2017-12-24T05:20:36Z                                       |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | hostId                               |                                                            |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | id                                   | 6fe0eb7a-fd38-4f70-aecd-7c0234970725                       |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | key_name                             | -                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | metadata                             | {}                                                         |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | name                                 | mytest                                                     |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | progress                             | 0                                                          |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | security_groups                      | default                                                    |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | status                               | BUILD                                                      |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | updated                              | 2017-12-24T05:20:36Z                                       |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-24 13:20:37 ERROR [logutil.py:26] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 13:21:11 INFO [logutil.py:19] ...
+2017-12-24 13:21:11 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 13:21:11 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 13:21:11 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 13:25:19 INFO [logutil.py:19] ...
+2017-12-24 13:25:19 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 13:25:20 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 13:25:20 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 13:25:21 ERROR [logutil.py:26] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | Property                             | Value                                                      |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | OS-EXT-SRV-ATTR:instance_name        | instance-00000006                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | accessIPv4                           |                                                            |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | accessIPv6                           |                                                            |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | adminPass                            | L5L5xeFZQ38B                                               |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | config_drive                         |                                                            |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | created                              | 2017-12-24T05:25:20Z                                       |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | hostId                               |                                                            |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | id                                   | eb0c0988-36bf-49d9-8eef-fdecb41872f4                       |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | key_name                             | -                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | metadata                             | {}                                                         |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | name                                 | mytest                                                     |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | progress                             | 0                                                          |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | security_groups                      | default                                                    |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | status                               | BUILD                                                      |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | updated                              | 2017-12-24T05:25:20Z                                       |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-24 13:25:21 ERROR [logutil.py:26] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:16:07 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 14:16:07 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 14:16:07 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 14:16:54 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 14:16:54 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 14:16:54 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 14:16:54 ERROR [logutil.py:26] bash: -c: 行 0: 未预期的符号 `(' 附近有语法错误
+
+2017-12-24 14:16:54 ERROR [logutil.py:26] bash: -c: 行 0: `source admin-openrc.sh && nova boot --flavor m1.tiny --image cirros-0.3.3-x86_64 --nic net-id=('72c563de-d9ee-48f9-82bb-2ce1360c94a7',) --security-group default --availability-zone zone_test1:compute2 apitest0'
+
+2017-12-24 14:20:14 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 14:20:14 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 14:20:14 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 14:20:16 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | Property                             | Value                                                      |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:instance_name        | instance-00000007                                          |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | accessIPv4                           |                                                            |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | accessIPv6                           |                                                            |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | adminPass                            | LxeqMR7EpW76                                               |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | config_drive                         |                                                            |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | created                              | 2017-12-24T06:20:15Z                                       |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | hostId                               |                                                            |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | id                                   | d9f59f2e-d082-4f9d-9fc3-9058ad10e7d3                       |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | key_name                             | -                                                          |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | metadata                             | {}                                                         |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | name                                 | apitest0                                                   |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | progress                             | 0                                                          |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | security_groups                      | default                                                    |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | status                               | BUILD                                                      |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | updated                              | 2017-12-24T06:20:15Z                                       |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-24 14:20:16 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:23:37 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 14:23:37 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 14:23:37 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 14:23:38 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | Property                             | Value                                                      |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:instance_name        | instance-00000008                                          |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | accessIPv4                           |                                                            |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | accessIPv6                           |                                                            |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | adminPass                            | f6tna3DwFQQr                                               |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | config_drive                         |                                                            |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | created                              | 2017-12-24T06:23:37Z                                       |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | hostId                               |                                                            |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | id                                   | 82c7c9e9-680a-482f-a364-8d82d592d6b9                       |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | key_name                             | -                                                          |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | metadata                             | {}                                                         |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | name                                 | apitest0                                                   |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | progress                             | 0                                                          |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | security_groups                      | default                                                    |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | status                               | BUILD                                                      |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | updated                              | 2017-12-24T06:23:38Z                                       |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-24 14:23:38 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:23:40 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | Property                             | Value                                                      |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:instance_name        | instance-00000009                                          |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | accessIPv4                           |                                                            |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | accessIPv6                           |                                                            |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | adminPass                            | eD3dtx9DnapQ                                               |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | config_drive                         |                                                            |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | created                              | 2017-12-24T06:23:39Z                                       |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | hostId                               |                                                            |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | id                                   | e09a83bd-3d3d-409c-ab70-04851be7a648                       |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | key_name                             | -                                                          |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | metadata                             | {}                                                         |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | name                                 | apitest1                                                   |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | progress                             | 0                                                          |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | security_groups                      | default                                                    |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | status                               | BUILD                                                      |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | updated                              | 2017-12-24T06:23:39Z                                       |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-24 14:23:40 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:24:47 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 14:24:47 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 14:24:47 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 14:24:48 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | Property                             | Value                                                      |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:instance_name        | instance-0000000a                                          |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | accessIPv4                           |                                                            |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | accessIPv6                           |                                                            |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | adminPass                            | Bees8D9b8Z3x                                               |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | config_drive                         |                                                            |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | created                              | 2017-12-24T06:24:47Z                                       |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | hostId                               |                                                            |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | id                                   | f5db3d94-7dff-4975-bc26-e3b7fc2f78f3                       |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | key_name                             | -                                                          |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | metadata                             | {}                                                         |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | name                                 | apitest0                                                   |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | progress                             | 0                                                          |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | security_groups                      | default                                                    |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | status                               | BUILD                                                      |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | updated                              | 2017-12-24T06:24:47Z                                       |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-24 14:24:48 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:24:49 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | Property                             | Value                                                      |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:instance_name        | instance-0000000b                                          |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | accessIPv4                           |                                                            |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | accessIPv6                           |                                                            |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | adminPass                            | 4JqGBnV2ZUs9                                               |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | config_drive                         |                                                            |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | created                              | 2017-12-24T06:24:48Z                                       |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | hostId                               |                                                            |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | id                                   | 8ec9a266-449b-4c91-8cf7-24b41f484d12                       |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | key_name                             | -                                                          |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | metadata                             | {}                                                         |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | name                                 | apitest1                                                   |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | progress                             | 0                                                          |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | security_groups                      | default                                                    |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | status                               | BUILD                                                      |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | updated                              | 2017-12-24T06:24:48Z                                       |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-24 14:24:49 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 14:41:03 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 14:41:04 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 14:41:04 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 15:02:39 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 15:02:40 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 15:02:40 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 15:02:40 ERROR [logutil.py:26] vm deploy fail!
+2017-12-24 15:07:24 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 15:07:25 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 15:07:25 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 15:07:27 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | Property                             | Value                                                      |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:instance_name        | instance-0000000c                                          |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | accessIPv4                           |                                                            |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | accessIPv6                           |                                                            |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | adminPass                            | igG8ZmPaAX5r                                               |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | config_drive                         |                                                            |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | created                              | 2017-12-24T07:07:26Z                                       |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | hostId                               |                                                            |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | id                                   | 4124e4c6-25e4-4930-a46a-04ff3063bdeb                       |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | key_name                             | -                                                          |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | metadata                             | {}                                                         |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | name                                 | apitest0                                                   |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | progress                             | 0                                                          |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | security_groups                      | default                                                    |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | status                               | BUILD                                                      |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | updated                              | 2017-12-24T07:07:26Z                                       |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-24 15:07:27 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 15:07:27 ERROR [logutil.py:26] vm deploy fail!
+2017-12-24 19:28:59 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 19:28:59 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 19:28:59 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 19:29:00 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | Property                             | Value                                                      |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:instance_name        | instance-0000000d                                          |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | accessIPv4                           |                                                            |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | accessIPv6                           |                                                            |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | adminPass                            | 8DM2iKPysBGx                                               |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | config_drive                         |                                                            |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | created                              | 2017-12-24T11:28:59Z                                       |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | hostId                               |                                                            |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | id                                   | 4c5e1258-e604-4d05-a07d-af8118194af7                       |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | key_name                             | -                                                          |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | metadata                             | {}                                                         |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | name                                 | frombeego0                                                 |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | progress                             | 0                                                          |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | security_groups                      | default                                                    |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | status                               | BUILD                                                      |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | updated                              | 2017-12-24T11:28:59Z                                       |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-24 19:29:00 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 19:35:26 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-24 19:35:26 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-24 19:35:26 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-24 19:35:28 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | Property                             | Value                                                      |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:instance_name        | instance-0000000e                                          |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | accessIPv4                           |                                                            |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | accessIPv6                           |                                                            |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | adminPass                            | x9wBDJj8tqzo                                               |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | config_drive                         |                                                            |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | created                              | 2017-12-24T11:35:27Z                                       |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | hostId                               |                                                            |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | id                                   | de6c3e1b-c2e7-4f5c-bbec-19301f8b2676                       |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | key_name                             | -                                                          |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | metadata                             | {}                                                         |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | name                                 | linux0                                                     |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | progress                             | 0                                                          |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | security_groups                      | default                                                    |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | status                               | BUILD                                                      |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | updated                              | 2017-12-24T11:35:27Z                                       |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-24 19:35:28 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-25 11:24:21 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-25 11:24:21 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-25 11:24:21 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-25 11:24:48 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | Property                             | Value                                                      |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:instance_name        | instance-0000000f                                          |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | accessIPv4                           |                                                            |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | accessIPv6                           |                                                            |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | adminPass                            | iL4tJbGu3zVE                                               |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | config_drive                         |                                                            |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | created                              | 2017-12-25T03:24:43Z                                       |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | hostId                               |                                                            |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | id                                   | 3673cdcf-f168-4020-9b81-33c1f376dd5f                       |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | key_name                             | -                                                          |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | metadata                             | {}                                                         |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | name                                 | linx20                                                     |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | progress                             | 0                                                          |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | security_groups                      | default                                                    |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | status                               | BUILD                                                      |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | updated                              | 2017-12-25T03:24:45Z                                       |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-25 11:24:48 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-25 12:06:40 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-25 12:06:41 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-25 12:06:41 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-25 12:06:44 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | Property                             | Value                                                      |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:instance_name        | instance-00000010                                          |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | accessIPv4                           |                                                            |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | accessIPv6                           |                                                            |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | adminPass                            | 5stQ2E5gZjm6                                               |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | config_drive                         |                                                            |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | created                              | 2017-12-25T04:06:42Z                                       |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | hostId                               |                                                            |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | id                                   | e34cf493-a3af-41b4-81c9-9a21534e55e4                       |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | key_name                             | -                                                          |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | metadata                             | {}                                                         |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | name                                 | fanxindsb0                                                 |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | progress                             | 0                                                          |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | security_groups                      | default                                                    |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | status                               | BUILD                                                      |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | updated                              | 2017-12-25T04:06:43Z                                       |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-25 12:06:44 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-25 12:10:04 INFO [transport.py:1687] Connected (version 2.0, client OpenSSH_6.6.1p1)
+2017-12-25 12:10:04 INFO [transport.py:1687] Authentication (publickey) failed.
+2017-12-25 12:10:05 INFO [transport.py:1687] Authentication (password) successful!
+2017-12-25 12:10:06 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | Property                             | Value                                                      |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | OS-EXT-AZ:availability_zone          | zone_test1                                                 |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:host                 | compute1                                                   |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:hypervisor_hostname  | compute1                                                   |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:instance_name        | instance-00000011                                          |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | OS-EXT-STS:task_state                | -                                                          |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | accessIPv4                           |                                                            |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | accessIPv6                           |                                                            |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | adminPass                            | 2GXu7XXaWm6R                                               |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | config_drive                         |                                                            |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | created                              | 2017-12-25T04:10:04Z                                       |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | hostId                               | 6cfbc20f216e3a0530b5458307564dea8ff6af471aa1f33d823c44e2   |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | id                                   | acb7a65f-8915-485e-9521-31f2ea894c77                       |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | key_name                             | -                                                          |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | metadata                             | {}                                                         |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | name                                 | fanxindsb2.00                                              |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | progress                             | 0                                                          |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | security_groups                      | default                                                    |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | status                               | BUILD                                                      |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | updated                              | 2017-12-25T04:10:05Z                                       |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-25 12:10:06 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-25 12:10:08 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | Property                             | Value                                                      |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | OS-DCF:diskConfig                    | MANUAL                                                     |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | OS-EXT-AZ:availability_zone          | nova                                                       |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:host                 | -                                                          |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                                          |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | OS-EXT-SRV-ATTR:instance_name        | instance-00000012                                          |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | OS-EXT-STS:power_state               | 0                                                          |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | OS-EXT-STS:task_state                | scheduling                                                 |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | OS-EXT-STS:vm_state                  | building                                                   |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | OS-SRV-USG:launched_at               | -                                                          |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | OS-SRV-USG:terminated_at             | -                                                          |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | accessIPv4                           |                                                            |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | accessIPv6                           |                                                            |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | adminPass                            | G9jtbJm9oFUu                                               |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | config_drive                         |                                                            |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | created                              | 2017-12-25T04:10:06Z                                       |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | flavor                               | m1.tiny (1)                                                |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | hostId                               |                                                            |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | id                                   | 929142c9-7bd8-4f0b-a55a-8c1ecb343a2e                       |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | image                                | cirros-0.3.3-x86_64 (56401d6b-8c54-43c5-a708-51ef5353c789) |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | key_name                             | -                                                          |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | metadata                             | {}                                                         |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | name                                 | fanxindsb2.01                                              |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | os-extended-volumes:volumes_attached | []                                                         |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | progress                             | 0                                                          |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | security_groups                      | default                                                    |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | status                               | BUILD                                                      |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | tenant_id                            | 5fe9d3cba0b2493da411f55812bae095                           |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | updated                              | 2017-12-25T04:10:06Z                                       |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] | user_id                              | 3ff50ed46bf34d9dbb113de8ca579b33                           |
+
+2017-12-25 12:10:08 INFO [logutil.py:19] +--------------------------------------+------------------------------------------------------------+
+
